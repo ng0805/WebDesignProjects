@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<!--Note that the page does not format correctly in Visual Studio view. Opening in browser gives expected result-->
+<style> 
+    body {
+        background: 
+            linear-gradient( /*Green to Blue Color Gradient*/
+                to bottom,
+                #497B0E 0%,
+                #08B3E5 100%
+            );
+    }
+    .topImg {
+      height: 300px;
+      width: 500px;
+    }
+
+    .bottomImg {
+        height: 200px; 
+        width: 400px;
+    }
+
+    .dualListRow{
+        clear:both
+    }
+
+    .dualListColumn{
+        width: 50%;
+        float: left;
+    }
+
+    .topImgColumn{
+        width: 33%;
+        float: left;
+    }
+
+    .favsListColumn{
+        width: 25%;
+        float: left;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    a{ /*Anchors for Table of Contents Links*/
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+    
+    li{ /*Bulleted List Elements*/
+        font-size: 30px;
+    }
+</style>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Nick Gutierrez's Bio Page</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Welcome to Nick Gutierrez's Bio Page</h1> 
+    </div>
+
+    <div class="dualListRow">
+         <div class="topImgColumn" style="text-align:right;">
+            <img class=topImg src="/Pictures/DinoMan.jpg">
+        </div>
+         <div class="topImgColumn" style="text-align:center;">
+            <img class=topImg src="/Pictures/StylishPose.jpg">
+        </div>
+         <div class="topImgColumn" style="text-align:left;">
+            <img class=topImg src="/Pictures/FamilyPic.jpg">
+        </div>
+    </div>
+
+    <h2>Table of Contents</h2>
+    <a href="#intro">Introduction</a>
+    </br>
+    <a href="#home">Where I'm From</a>
+    </br>
+    <a href="#schools">Schools and Degrees</a>
+    </br>
+    <a href="#profgoals">Professional Goals</a>
+    </br>
+    <a href="#hobints">Hobbies and Interests</a>
+
+    <!-- Intro -->
+
+    <h2 id="intro">Introduction</h2>
+
+    <div class="dualListRow">
+        <div class="dualListColumn">
+            <p>Welcome to the Biography Page for Nick Gutierrez! In this page, you'll find plenty of information about me and my life. I hope you enjoy the read!</p>
+            <p>You can head to the Table of Contents at any point if you want to read a specific section, or you can just read the whole thing if you want.</p>
+        </div>
+        <div class="dualListColumn" style="text-align:center;">
+            <img src ="/Pictures/Welcome.gif" style="height:300px; width: 400px">
+        </div>
+    </div>
+
+    <!-- Home -->
+
+    <h2 id="home">Where I'm From</h2>
+
+    <div class="dualListRow">
+        <div class="dualListColumn">
+            <p>I was originally born in California before moving to Spring Hill, Tennessee at the age of 4. I lived in Spring Hill for 12 years meaning I practically grew up there. Eventually, I moved to Hilton Head, South Carolina and went to high school there. It was a big change, but I love living there now.</p>
+        </div>
+        <div class="dualListColumn">
+            <img src ="/Pictures/California.jpg">
+            <img src ="/Pictures/Tn.jpg" style="height:150px;width:300px;">
+            <img src ="/Pictures/HHI.jpg">
+        </div>
+    </div>
+
+    <div style=" clear:both"> <!--Div needed here because the title will shift to the right for some reason-->
+        <h3>Differences in Home Towns</h3>
+    </div>
+
+    <div class="dualListRow">
+        <div class="dualListColumn">
+            <h3>Spring Hill</h3>
+            
+            <ul style="list-style-type:disc">
+                <li>Land Locked</li>
+                <li>Plenty of places to camp</li>
+                <li>Need a car to get around</li>
+                <li>Plenty of restaurants and shops</li>
+                <li>Nothing to do</li>
+            </ul>
+         </div>
+        <div class="dualListColumn">
+            <h3>Hilton Head</h3>
+            
+            <ul style="list-style-type:disc">
+                <li>Tons of Beaches</li>
+                <li>Have to go further out to camp</li>
+                <li>Plenty of walking paths</li>
+                <li>A metric ton of local restaurants and shops</li>
+                <li>Always something to do</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Schools and Degrees -->
+
+    <h2 id="schools">Schools and Degrees</h2>
+
+    <h3>High School</h3>
+    <p>I went to <a href="https://www.wcs.edu/SHS" target="_blank">Summit High School</a> in Spring Hill, TN for my freshman year before moving the <a href="https://hhihs.beaufortschools.net/" target="_blank">Hilton Head Island High School</a> for the remaining three years. I graduated with a both a normal high school diploma and an <a href="https://ibo.org" target="_blank">International Baccalaureate</a> diploma.</p>
+    
+    <h3>College</h3>
+    <p>After graduation, I applied and got accepted to <a href="https://bu.edu" target="_blank">Boston University</a> where I currently attend. I plan to graduate in May 2023 with a Bachelor's in Computer Engineering.</p>
+    <p>I've taken many classes throughout my college career including:</p>
+    <div class="dualListRow">
+        <div class="dualListColumn">
+            <h3>Major Related Classes</h3>
+            
+            <ul style="list-style-type:disc">
+                <li>Operating Systems</li>
+                <li>Logic Design</li>
+                <li>Hardware Design</li>
+                <li>Smart and Connected Systems</li>
+                <li>Cybersecurtiy</li>
+                <li>Intro to Networking</li>
+                <li>Statics</li>
+                <li>Physics</li>
+                <li>Chemistry</li>
+            </ul>
+        </div>
+        <div class="dualListColumn">
+            <h3>Non Major Classes</h3>
+            
+            <ul style="list-style-type:disc">
+                <li>Comprehensive Writing Skills</li>
+                <li>The History of War</li>
+                <li>The ins and outs of Apocalyptic Literature</li>
+                <li>The complicated web of Greek and Roman Mythology</li>
+                <li>How to play the Guitar</li>
+                <li>How to play the Piano</li>
+                <li>The pop culture of various African nations and how their history got them to this point</li>
+                <li>and so much more!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Professional Goals -->
+
+    <h2 id="profgoals">Professional Goals</h2>
+
+    <h3>Current Job</h3>
+
+     <div class="dualListRow">
+        <div class="dualListColumn">
+            <p>After Graduation, I am starting a job with Amazon Web Services on the Dynamo DB Streams team. I've already interned with the team twice so I am very excited to start work in August!</p>
+        </div>
+        <div class="dualListColumn" style="text-align:center;">
+            <img src ="/Pictures/DDBStreams.png" style ="height: 250px; width: 350px;">
+        </div>
+    </div>
+
+    <h3>Career Goals</h3>
+    <div class="dualListRow">
+        <div class="dualListColumn">
+            <p>I would of course hope to work with AWS for as long as possible, as it will give me plenty of experience in the field. Eventually, I will move on from AWS and hope to run my own team one day. If I do become managment, I hope I can still contribute to the codebase as sitting in meetings all day doesn't sound all that exciting.</p>
+            <p>Of course, nobody knows what the future will bring. Who knows, maybe I'll start my own company one day and become a millionaire.</p>
+        </div>
+        <div class="dualListColumn" style="text-align:center;">
+            <img src ="/Pictures/work.gif" style="width: 400px">
+        </div>
+    </div>
+
+    <!-- Hobbies and Interests -->
+
+    <h2 id="hobints">Hobbies and Interests</h2>
+    <p>This last section is going to be a rapid fire of my hobbies and interests. Hopefully you see something you like!</p>
+
+    <div class="dualListRow">
+        <div class="favsListColumn" style="margin-left: 50px;">
+            <p>Favorite Movie</p>
+            <img class="bottomImg" src ="/Pictures/GHDay.jpg">
+            <p>Groundhog Day</p>
+        </div>
+        <div class="favsListColumn">
+            <p>Favorite Food</p>
+            <img class="bottomImg" src ="/Pictures/MacNCheese.jpg">
+            <p>Mac N Cheese</p>
+        </div>
+        <div class="favsListColumn">
+            <p>Favorite Video Game</p>
+            <img class="bottomImg" src ="/Pictures/Portal2.jpg">
+            <p>Portal 2</p>
+        </div>
+    </div>
+
+        <div class="dualListRow">
+        <div class="favsListColumn" style="margin-left: 50px;">
+            <p>Favorite Outdoor Activity</p>
+            <img class="bottomImg" src ="/Pictures/Camping.jpg">
+            <p>Camping</p>
+        </div>
+        <div class="favsListColumn">
+            <p>Favorite Sport</p>
+            <img class="bottomImg" src ="/Pictures/Swimming.jpg">
+            <p>Swimming</p>
+        </div>
+        <div class="favsListColumn">
+            <p>Favorite Historical Era</p>
+            <img class="bottomImg" src ="/Pictures/GA.jpg">
+            <p>The American Gilded Age</p>
+        </div>
+    </div>
+
+</body>
+</html>
