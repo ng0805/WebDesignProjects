@@ -1,0 +1,7 @@
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\bin\Lab5.dll.config
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\bin\Lab5.dll
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\bin\Lab5.pdb
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\obj\Debug\Lab5.dll
+C:\Users\Senior McCool\Desktop\512\Lab5\Lab5\obj\Debug\Lab5.pdb
